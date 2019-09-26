@@ -1,0 +1,7 @@
+{
+    "token": "..."
+    "username": "...",
+    "start_date": "2019-08-01",
+    "sync_lookback_days": 30,
+    "user_agent": "tap-rebound <dev@example.com>"
+}

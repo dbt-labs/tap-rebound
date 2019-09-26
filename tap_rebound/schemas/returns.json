@@ -1,0 +1,239 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["string"]
+        },
+        "order_reference": {
+            "type": ["null", "string"]
+        },
+        "date_added": {
+            "type": ["null", "string"]
+        },
+        "name": {
+            "type": ["null", "string"]
+        },
+        "company_name": {
+            "type": ["null", "string"]
+        },
+        "zip": {
+            "type": ["null", "string"]
+        },
+        "email": {
+            "type": ["null", "string"]
+        },
+        "addr1": {
+            "type": ["null", "string"]
+        },
+        "addr2": {
+            "type": ["null", "string"]
+        },
+        "addr3": {
+            "type": ["null", "string"]
+        },
+        "city": {
+            "type": ["null", "string"]
+        },
+        "state": {
+            "type": ["null", "string"]
+        },
+        "country": {
+            "type": ["null", "string"]
+        },
+        "phone": {
+            "type": ["null", "string"]
+        },
+        "display_id": {
+            "type": ["null", "string"]
+        },
+        "external_id": {
+            "type": ["null", "string"]
+        },
+        "final_dest_addr1": {
+            "type": ["null", "string"]
+        },
+        "final_dest_addr2": {
+            "type": ["null", "string"]
+        },
+        "final_dest_addr3": {
+            "type": ["null", "string"]
+        },
+        "final_dest_city": {
+            "type": ["null", "string"]
+        },
+        "final_dest_country": {
+            "type": ["null", "string"]
+        },
+        "final_dest_state": {
+            "type": ["null", "string"]
+        },
+        "final_dest_zip": {
+            "type": ["null", "string"]
+        },
+        "final_dest_name": {
+            "type": ["null", "string"]
+        },
+        "final_dest_company_name": {
+            "type": ["null", "string"]
+        },
+        "final_dest_id": {
+            "type": ["null", "string"]
+        },
+        "tracking": {
+            "type": ["null", "string"]
+        },
+        "tracking_last_update": {
+            "type": ["null", "string"]
+        },
+        "current_tracking_status": {
+            "type": ["null", "string"]
+        },
+        "verification_entity": {
+            "type": ["null", "string"]
+        },
+        "item": {
+            "type": ["null", "array"],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "sku_code": {
+                        "type": ["null", "string"]
+                    },
+                    "sku_desc": {
+                        "type": ["null", "string"]
+                    },
+                    "quantity": {
+                        "type": ["null", "string"]
+                    },
+                    "price": {
+                        "type": ["null", "string"]
+                    },
+                    "weight": {
+                        "type": ["null", "string"]
+                    },
+                    "weight_uom": {
+                        "type": ["null", "string"]
+                    },
+                    "length": {
+                        "type": ["null", "string"]
+                    },
+                    "width": {
+                        "type": ["null", "string"]
+                    },
+                    "height": {
+                        "type": ["null", "string"]
+                    },
+                    "dimensions_uom": {
+                        "type": ["null", "string"]
+                    },
+                    "hs_code": {
+                        "type": ["null", "string"]
+                    },
+                    "country_code": {
+                        "type": ["null", "string"]
+                    },
+                    "img_path": {
+                        "type": ["null", "string"]
+                    },
+                    "dangerous_goods": {
+                        "type": ["null", "string"]
+                    },
+                    "tracking": {
+                        "type": ["null", "string"]
+                    },
+                    "export_date": {
+                        "type": ["null", "string"]
+                    },
+                    "export_awb": {
+                        "type": ["null", "string"]
+                    },
+                    "export_carrier_name": {
+                        "type": ["null", "string"]
+                    },
+                    "sku_url": {
+                        "type": ["null", "string"]
+                    },
+                    "non_returnable": {
+                        "type": ["null", "string"]
+                    },
+                    "days_for_return": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_name": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_company_name": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_id": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_country": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_state": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_zip": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_city": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_addr1": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_addr2": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_addr3": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_neighborhood": {
+                        "type": ["null", "string"]
+                    },
+                    "final_dest_suburb": {
+                        "type": ["null", "string"]
+                    },
+                    "verification_entity": {
+                        "type": ["null", "string"]
+                    },
+                    "final_disposition": {
+                        "type": ["null", "string"]
+                    },
+                    "reason": {
+                        "type": ["null", "array"],
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "action": {
+                                    "type": ["null", "string"]
+                                },
+                                "reason": {
+                                    "type": ["null", "string"]
+                                },
+                                "wish": {
+                                    "type": ["null", "string"]
+                                },
+                                "additional": {
+                                    "type": ["null", "object"],
+                                    "properties": {
+                                        "title": {
+                                            "type": ["null", "string"]
+                                        },
+                                        "value": {
+                                            "type": ["null", "string"]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "carrier": {
+            "type": ["null", "string"]
+        }
+    }
+}

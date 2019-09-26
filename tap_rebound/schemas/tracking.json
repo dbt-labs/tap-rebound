@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "properties": {
+        "tracking_code": {
+            "type": ["string"]
+        },
+        "pallet_number": {
+            "type": ["null", "string"]
+        },
+        "source_country": {
+            "type": ["null", "string"]
+        },
+        "carrier_name": {
+            "type": ["null", "string"]
+        },
+        "service_id": {
+            "type": ["null", "string"]
+        },
+        "external_id": {
+            "type": ["null", "string"]
+        },
+        "order_reference": {
+            "type": ["null", "string"]
+        },
+        "track": {
+            "type": ["null", "array"],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "dt": {
+                        "type": ["null", "string"]
+                    },
+                    "status": {
+                        "type": ["null", "string"]
+                    },
+                    "location": {
+                        "type": "object",
+                        "properties": {
+                            "country": {
+                                "type": ["null", "string"]
+                            },
+                            "state": {
+                                "type": ["null", "string"]
+                            },
+                            "city": {
+                                "type": ["null", "string"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
